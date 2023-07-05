@@ -7,6 +7,6 @@ app.get("/", async (req, res) => {
     res.sendFile(path.join(__dirname, "./salom.html"));
 });
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log("server is running");
 });
